@@ -17,6 +17,5 @@
 
 `hdfs dfs -put AFINN.txt /`   <br/>      
 `hdfs dfs -mkdir /input`    <br/>    
-`hdfs dfs -mkdir /output`<br/>    
 `hdfs dfs -put id_tweets.txt /input`<br/>    
 `hadoop jar twitter.jar /input /output`<br/>    
