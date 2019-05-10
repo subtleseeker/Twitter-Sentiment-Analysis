@@ -6,16 +6,16 @@
 **part-r-00000**: The sentiment analysis of tweets done using map-reduce.  
 
 ### Commands which could be helpful:
-// twitter.jar is jar file made from the driver class (Sentiment_Analysis class)<br/>    
-`javac -cp $(hadoop classpath) Sentiment_Analysis.java` <br/>    
+twitter.jar is jar file made from the driver class (Sentiment_Analysis class)<br/>    
+```javac -cp $(hadoop classpath) Sentiment_Analysis.java``` <br/>    
 
-// ex contains 3 .class files & mind the .(dot) in the end <br/>    
-`jar -cvf twitter.jar -C /home/subtleseeker/Desktop/sentiment_analysis2/00/ex .` <br/>    
+ex contains 3 .class files & mind the .(dot) in the end <br/>    
+```jar -cvf twitter.jar -C /home/subtleseeker/Desktop/sentiment_analysis2/00/ex .``` <br/>    
 
 
-// Get into directory where AFINN.txt and twitter.jar is present and execute:
+Get into directory where AFINN.txt and twitter.jar is present and execute:
 
-`hdfs dfs -put AFINN.txt /`   <br/>      
-`hdfs dfs -mkdir /input`    <br/>    
-`hdfs dfs -put id_tweets.txt /input`<br/>    
-`hadoop jar twitter.jar /input /output`<br/>    
+```hdfs dfs -put AFINN.txt /```   <br/>      
+```hdfs dfs -mkdir /input```    <br/>    
+```hdfs dfs -put id_tweets.txt /input```<br/>    
+```hadoop jar twitter.jar /input /output```<br/>    
