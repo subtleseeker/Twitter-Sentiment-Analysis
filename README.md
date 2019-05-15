@@ -41,7 +41,7 @@ The input file consisted of many tweets in the following format:
 which was then converted to 
 ```<tweet>$#$<id>```
    
-The other file `AFINN.txt` consisted of a dictionary of words which are considered for sentinel analysis.  
+The other file `AFINN.txt` consisted of a dictionary of words which are considered for sentiment analysis.  
 
 ## Output Screenshot
 [Screenshot of the output](./ss.png)
