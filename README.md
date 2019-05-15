@@ -41,9 +41,13 @@ The input file consisted of many tweets in the following format:
 which was then converted to 
 ```<tweet>$#$<id>```
    
-The other file consisted of a dictionary of the words which are considered for sentinel analysis.  
+The other file `AFINN.txt` consisted of a dictionary of words which are considered for sentinel analysis.  
 
 ## Output Screenshot
+[Screenshot of the output](./ss.png)
+
+The output is stored in the file `part-r-00000`.   
+To check the complete output, check the file `terminal.txt`. 
 
 
 
